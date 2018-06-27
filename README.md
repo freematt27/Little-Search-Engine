@@ -11,9 +11,7 @@ Little Search Engine Driver --> created LittleSearchEngine object "lse"
 
 lse.makeIndex()
 
-makeIndex --> loadKeyWords()
-
-          --> mergeKeyWords()
+makeIndex --> loadKeyWords() & --> mergeKeyWords()
           
 loadKeyWords --> getKeyWord()
 
