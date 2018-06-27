@@ -8,10 +8,15 @@ When terms from different documents are being inserted into their respective lis
 The program flow looks like this:
 
 Little Search Engine Driver --> created LittleSearchEngine object "lse"
+
 lse.makeIndex()
+
 makeIndex --> loadKeyWords()
+
           --> mergeKeyWords()
+          
 loadKeyWords --> getKeyWord()
+
 makeKeyWords --> insertLastOccurence()
 
 top5Search is independent of the other functions. 
